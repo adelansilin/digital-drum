@@ -3,7 +3,7 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++)
     document.querySelectorAll(".drum")[i].addEventListener("click",function(){
         var buttonInnerHTML=this.innerHTML;
         makeSound(buttonInnerHTML);
-        buttonAnimation(buttonInnerHTML)
+        buttonAnimation(buttonInnerHTML);
     });
 }
 
@@ -59,7 +59,7 @@ function buttonAnimation (currentKey){
     var activeButton= document.querySelector("."+currentKey);
     activeButton.classList.add("pressed");
     setTimeout(function(){
-        activeButton.classList.remove("pressed")
+        activeButton.classList.remove("pressed");
     },100);
 
 }
