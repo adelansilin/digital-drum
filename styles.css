@@ -100,5 +100,8 @@ footer {
     font-size: 25px;
     background-image: cen;
   }
+  h3,h2,p{
+    font-size: 15px;
+  }
   
 }
