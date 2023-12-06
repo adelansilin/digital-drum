@@ -25,7 +25,8 @@ h1{
 footer {
   color: #90553C;
   font-family: sans-serif;
-  font-size:5px;
+  font-size:10px;
+  padding:5px;
 }
 
 .W {
@@ -98,5 +99,6 @@ footer {
   h3,h2,p,li,ul{
     font-size: 14px;
   }
-  
+  footer{
+    font-size:7px;
 }
