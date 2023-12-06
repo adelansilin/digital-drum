@@ -1,10 +1,8 @@
 body {
   text-align: center;
-  background-color: #F0DAAE;
+  background-color: #FAE7C9;
   margin: 50px;
   font-family: 'Merriweather', serif;
-  font-size: 17px;
-  
 }
 div.toolsContent{
   background-color: #A3966A;
@@ -87,9 +85,6 @@ footer {
 
 
 @media(max-width:600px){
-  body{
-    font-size: 15px;
-  }
   div.toolsContent{
     margin: 0;
     padding: 0.5px 1px;
@@ -99,7 +94,7 @@ footer {
     height: 60px;
     font-size: 25px;
   }
-  h3,h2,p{
+  h3,h2,p,li,ul{
     font-size: 15px;
   }
   
